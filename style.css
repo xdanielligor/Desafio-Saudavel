@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  background: #121a2f;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.players {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player {
+  text-align: center;
+}
+
+.player img {
+  width: 130px;
+  border: 25px solid #1e2744;
+  background: #1e2744;
+  border-radius: 5%;
+  margin-top:15px;
+  margin-left: 150px;
+}
+
+.score {
+  font-size: 2em;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+h2{
+    margin-left: 150px;
+}
+
+.habits {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+/* 🟢 NOVO ESTILO PARA CENTRALIZAR O PLAYER */
+.habits .player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.habits li {
+  background: #1e2744;
+  margin: 8px 0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.good {
+  color: #00e676;
+}
+
+.bad {
+  color: #ff5252;
+}

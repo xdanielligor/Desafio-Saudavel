@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Desafio de Hábitos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="players">
+      <div class="player">
+        <img src="img/imgMulher.png" alt="Beatriz">
+        <h2>beatriz Teran</h2>
+        <div class="score" id="score-daniel">0</div>
+      </div>
+
+    </div>
+
+    <ul class="habits">
+      <li onclick="addPoints('daniel', 1)">
+        <span>💧 Bebeu água</span><span class="good">+1</span>
+      </li>
+      <li onclick="addPoints('daniel', 1)">
+        <span>🍫 Evitou doce</span><span class="good">+1</span>
+      </li>
+      <li onclick="addPoints('daniel', -2)">
+        <span>🧋 Tomou refrigerante</span><span class="bad">-2</span>
+      </li>
+      <li onclick="addPoints('daniel', 3)">
+        <span>🏃 Exercícios aeróbicos</span><span class="good">+3</span>
+      </li>
+      <li onclick="addPoints('daniel', 2)">
+        <span>💪🏼 Academia força</span><span class="good">+2</span>
+      </li>
+      <li onclick="addPoints('daniel', 1)">
+        <span>🧘 Alongamento</span><span class="good">+1</span>
+      </li>
+      <li onclick="addPoints('daniel', 1)">
+        <span>🚳 Sem exercicios</span><span class="bad">-2</span>
+      </li>            
+      <li onclick="addPoints('daniel', 5)">
+        <span>🙇🏻‍♂️ Estudo biblico ou oração</span><span class="good">+5</span>
+      </li>
+      <li onclick="addPoints('daniel', 2)">
+        <span>📚 Leitura normal ou facul</span><span class="good">+2</span>
+      </li>
+      <li onclick="addPoints('daniel', 1)">
+        <span>📵 Evitou telas antes de dormir</span><span class="good">+1</span>
+      </li>
+      <li onclick="addPoints('daniel', 2)">
+        <span>✅ Checklist do dia</span><span class="good">+2</span>
+      </li>
+      <li onclick="addPoints('daniel', 1)">
+        <span>👫 Ajudar parceiro(a)</span><span class="good">+1</span>
+      </li>
+      <li onclick="addPoints('daniel', -2)">
+        <span>🍕 Comeu porcaria</span><span class="bad">-2</span>
+      </li>
+      <li onclick="addPoints('daniel', 2)">
+        <span>📘 Estudo ou prática</span><span class="good">+2</span>
+      </li>
+      <li onclick="addPoints('daniel', 2)">
+        <span>🥗 Pulou Refeição</span><span class="bad">-1</span>
+      </li>
+      <li onclick="addPoints('daniel', -2)">
+        <span>❌ Dia sem proposito</span><span class="bad">-2</span>
+      </li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
